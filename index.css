@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'ccccit-font';
+  src:  url('fonts/ccccit-font.eot?w66tsh');
+  src:  url('fonts/ccccit-font.eot?w66tsh#iefix') format('embedded-opentype'),
+    url('fonts/ccccit-font.ttf?w66tsh') format('truetype'),
+    url('fonts/ccccit-font.woff?w66tsh') format('woff'),
+    url('fonts/ccccit-font.svg?w66tsh#ccccit-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i.cf {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ccccit-font' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cf-logo:before {
+  content: "\e900";
+}
